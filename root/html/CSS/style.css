@@ -40,6 +40,7 @@ body {
 }
 .links li a:hover {
     background-color: #ccc;
+    text-decoration: none;
 }
 .footer {
     padding: 2%;
@@ -58,6 +59,8 @@ body {
     background-color: #ccc;
     width: 50%;
     border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .active {
     background-color: #222;
@@ -72,4 +75,11 @@ hr {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    text-decoration: underline;
 }
